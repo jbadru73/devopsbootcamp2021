@@ -1,1 +1,7 @@
-nothing
+aws ec2 run-instances \
+              --image-id ami-02b4e72b17337d6c1 \
+              --instance-type t2.micro \
+              --count 1 \
+              --subnet-id subnet-43ffa019 \
+              --security-group-ids sg-09d4a553c38c03991 \
+              --key-name GeneralKP 
