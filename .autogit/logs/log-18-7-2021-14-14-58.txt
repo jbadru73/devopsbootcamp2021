@@ -1,0 +1,19 @@
+-------------------- Auto-Git Log --------------------
+		Wed Aug 18 2021 14:14:58 GMT+0100 (British Summer Time)
+------------------------------------------------------
+
+Modified files:
+
+
+Created files:
+* .autogit/autogit.json
+* .autogit/logs/log-18-7-2021-1-32-20.txt
+* .autogit/logs/log-18-7-2021-11-13-13.txt
+* .autogit/logs/log-18-7-2021-11-43-30.txt
+* devopsbootcamp2021
+
+
+Deleted files:
+
+
+Renamed files:
