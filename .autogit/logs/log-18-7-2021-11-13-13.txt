@@ -1,0 +1,15 @@
+-------------------- Auto-Git Log --------------------
+		Wed Aug 18 2021 11:13:13 GMT+0100 (British Summer Time)
+------------------------------------------------------
+
+Modified files:
+
+
+Created files:
+* bootstrap.txt
+
+
+Deleted files:
+
+
+Renamed files:

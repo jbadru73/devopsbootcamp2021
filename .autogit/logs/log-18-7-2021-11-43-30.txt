@@ -1,0 +1,16 @@
+-------------------- Auto-Git Log --------------------
+		Wed Aug 18 2021 11:43:30 GMT+0100 (British Summer Time)
+------------------------------------------------------
+
+Modified files:
+* terraform.tfstate
+* terraform.tfstate.backup
+
+
+Created files:
+
+
+Deleted files:
+
+
+Renamed files:
