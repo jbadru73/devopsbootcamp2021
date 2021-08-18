@@ -14,12 +14,16 @@ provider "aws" {
   region  = "eu-west-1"
 }
 
+data "template_file" "ec2_user_data" {
+  template = file("${path.module}/bootstrap.txt")
+}
 resource "aws_instance" "app_server" {
   ami           = "ami-02b4e72b17337d6c1"
   instance_type = "t2.micro"
   key_name      = "GeneralKP"
+  user_data     = data.template_file.ec2_user_data.template
 
   tags = {
-    Name = "WebServer"
+    Name = "WebServer2"
   }
 }
