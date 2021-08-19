@@ -1,0 +1,18 @@
+-------------------- Auto-Git Log --------------------
+		Wed Aug 18 2021 21:46:43 GMT+0100 (British Summer Time)
+------------------------------------------------------
+
+Modified files:
+* new_employee/devopsbootcamp2021
+
+
+Created files:
+* .autogit/logs/log-18-7-2021-14-14-58.txt
+* TerraformCLI
+* terraform101.tf
+
+
+Deleted files:
+
+
+Renamed files:

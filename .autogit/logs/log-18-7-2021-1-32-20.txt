@@ -1,0 +1,17 @@
+-------------------- Auto-Git Log --------------------
+		Wed Aug 18 2021 01:32:20 GMT+0100 (British Summer Time)
+------------------------------------------------------
+
+Modified files:
+
+
+Created files:
+* .terraform.lock.hcl
+* terraform.tfstate
+* terraform101.tf
+
+
+Deleted files:
+
+
+Renamed files:
