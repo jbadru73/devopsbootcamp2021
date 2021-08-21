@@ -18,13 +18,3 @@ variable "tag_name" {
   default     = "webserver250"
 }
 
-variable "bucket" {
-  description = "This is used for tagging the instance"
-  default     = "tegah-training-1"
-}
-
-variable "key" {
-  description = "This is used for tagging the instance"
-  default     = "training/git_managed/demo-statefile"
-}
-
