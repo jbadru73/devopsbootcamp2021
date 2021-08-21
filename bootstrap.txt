@@ -1,4 +1,2 @@
 #!/bin/bash
-sudo yum install update
 sudo amazon-linux-extras install nginx1 -y
-sudo yum install maven git tomcat -y
