@@ -18,11 +18,3 @@ variable "tag_name" {
   default     = "webserver250"
 }
 
-variable "bucket" {
-  default     = "tegah-training-1"
-}
-
-variable "key" {
-  default     = "training/git_managed/demo-statefile"
-}
-
