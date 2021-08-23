@@ -12,8 +12,16 @@ provider "aws" {
   profile = "default"
   region  = "eu-west-1"
 }
+module "testingbytegah" {
+  source         = "./mymodules/ec2"
+  instance_count = 1
+  ami_id         = "ami-02b4e72b17337d6c1"
+  key            = "GeneralKP"
+  instance_type  = "t2.micro"
+  name           = "changeable module"
+}
 
-resource "aws_instance" "web_server" {
+/* resource "aws_instance" "web_server" {
   ami                    = var.image_id
   instance_type          = var.instance_type
   key_name               = var.ssh_key
@@ -24,3 +32,4 @@ resource "aws_instance" "web_server" {
     Name = element(var.tag_name, count.index)
   }
 }
+ */

@@ -1,8 +1,7 @@
 terraform {
   backend "s3" {
-    bucket = "tegah-training-1"
-    key    = "training/git_managed/demo-statefile"
-    region = "us-east-1"
+    bucket = "terraformmdl-training"
+    key    = "terraformmdl-training/mymodules/ec2-statefile"
+    region = "eu-west-1"
   }
-
 }
