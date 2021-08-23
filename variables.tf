@@ -14,11 +14,11 @@ variable "image_id" {
 }
 
 variable "tag_name" {
-  description = "This is used for tagging the instance"
-  default     = "webserver250"
+  type    = list(any)
+  default = ["webserver1", "webserver2"]
 }
 
-variable "Instance_count" {
+variable "instance_count" {
   description = "This is used for counting the instance"
   default     = 2
 }
