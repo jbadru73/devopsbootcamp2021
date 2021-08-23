@@ -63,4 +63,11 @@ resource "aws_route_table" "demo_rt" {
   tags = {
     Name = "Personal_RT"
   }
+resource "aws_route_table_association" "public_subnet_ass_1" {
+  subnet_id      = aws_subnet.public_subnet_1.id
+  route_table_id = aws_route_table.demo_rt.id
+}
+resource "aws_route_table_association" "public_subnet_ass_1" {
+  subnet_id      = aws_subnet.public_subnet_2.id
+  route_table_id = aws_route_table.demo_rt.id
 }
