@@ -1,2 +1,13 @@
 #!/bin/bash
+sudo yum update -y
 sudo amazon-linux-extras install nginx1 -y
+sudo systemctl start nginx
+sudo curl https://releases.hashicorp.com/terraform/1.0.5/terraform_1.0.5_linux_amd64.zip -O
+unzip terraform_1.0.5_linux_amd64.zip
+sudo cp terraform /usr/local/bin
+sudo yum install maven git tomcat -y
+sudo yum install -y yum-utils
+sudo yum-config-manager --add-repo https://rpm.releases.hashicorp.com/AmazonLinux/hashicorp.repo
+sudo yum -y install packer
+sudo yum update -y
+sudo amazon-linux-extras install ansible2 -y
