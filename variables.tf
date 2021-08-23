@@ -18,3 +18,8 @@ variable "tag_name" {
   default     = "webserver250"
 }
 
+variable "Instance_count" {
+  description = "This is used for counting the instance"
+  default     = 2
+}
+
