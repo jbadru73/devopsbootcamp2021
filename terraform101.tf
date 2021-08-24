@@ -13,12 +13,25 @@ provider "aws" {
   region  = "eu-west-1"
 }
 module "testingbytegah" {
-  source         = "./mymodules/ec2"
-  instance_count = 1
-  ami_id         = "ami-02b4e72b17337d6c1"
-  key            = "GeneralKP"
-  instance_type  = "t2.micro"
-  name           = "changeable module"
+  source = "./mymodules/ec2"
+
+  instancecount = 1
+  ami_id        = "ami-02b4e72b17337d6c1"
+  key           = "GeneralKP"
+  instance_type = "t2.micro"
+  name          = "toolbox module"
+  httport       = 80
+}
+
+module "testingbytegah1" {
+  source = "./mymodules/ec2"
+
+  instancecount = 2
+  ami_id        = "ami-02b4e72b17337d6c1"
+  key           = "GeneralKP"
+  instance_type = "t2.micro"
+  name          = "changeable module"
+  httport       = 80
 }
 
 /* resource "aws_instance" "web_server" {
